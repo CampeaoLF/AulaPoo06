@@ -6,7 +6,7 @@ public class Inimigo : Personagem, IPersonagem
 
     private int dano;
 
-    public Inimigo(string nome, int vida, int dano, int flechas) : base(nome, vida ,flechas )
+    public Inimigo(string nome, int vida, int dano, int flechas) : base(nome, vida )
     {
         this.dano = dano;
     }

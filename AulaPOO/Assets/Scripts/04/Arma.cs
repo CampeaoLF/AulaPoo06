@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Arma
@@ -23,4 +24,9 @@ public class Arma
 
     public string getNome()
     { return this.nome; }
+
+    internal void Usar()
+    {
+        throw new NotImplementedException();
+    }
 }

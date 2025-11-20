@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class Player : Personagem
 {
-    private List<Arma> armas = new List<Arma>();
+    private List<Arma02> armas = new List<Arma02>();
     private Armadura armadura;
     private Escudo escudo;
 
-    public Player(string nome, int vida, int flechas) : base(nome, vida, flechas)
+    public Player(string nome, int vida, int flechas) : base(nome, vida)
     {
     }
 
-    public void setArma(Arma arma)
+    public void setArma(Arma02 arma)
     {
         armas.Add(arma);
     }
-    public List<Arma> getArmas()
+    public List<Arma02> getArmas()
     {
         return armas;
     }

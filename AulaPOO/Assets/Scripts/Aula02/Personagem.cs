@@ -14,7 +14,7 @@ public abstract class Personagem : IPersonagem
     protected int flechas;
     //private TipoPersonagem tipo;
 
-    public Personagem(string nome, int vida, int flechas)
+    public Personagem(string nome, int vida)
     {
         this.nome = nome;
         //if (vida > 100)

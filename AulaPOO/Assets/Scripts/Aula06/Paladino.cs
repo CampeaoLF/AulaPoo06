@@ -1,10 +1,10 @@
+
 using UnityEngine;
 
-public  class Paladino : Personagem
+public class Paladino : Personagem
 {
-    public Paladino(string nome, int vida, int flechas) : base(nome, vida, flechas)
+    public Paladino(string nome, int vida) : base(nome, vida)
     {
-       
     }
 
     public override void ReceberDano(int dano)
